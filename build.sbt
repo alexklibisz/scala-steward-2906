@@ -8,7 +8,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-steward-2906",
     libraryDependencies ++= Seq(
-      "io.circe" %% "circe-parser" % circeVersion,
-      "io.circe" %% "circe-core" % circeVersion
+      "io.circe" %% "circe-core" % circeVersion,
+      "io.circe" %% "circe-parser" % circeVersion
     )
   )
